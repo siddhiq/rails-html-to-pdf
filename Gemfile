@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use SCSS for stylesheets
@@ -44,3 +42,12 @@ gem 'wicked_pdf'
 
 #All platform
 gem 'rails_12factor'
+
+#Testing
+group :development, :test do
+  gem 'rspec-rails', '~> 2.0'
+end
+
+group :test do
+  gem 'shoulda-matchers'
+end
