@@ -53,4 +53,4 @@ group :test do
 end
 
 #Documentation
-gem install yard
+gem 'yard'
