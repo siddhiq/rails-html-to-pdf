@@ -1,8 +1,16 @@
 class HomeController < ApplicationController
+	# Index page
+	#
+	# @param request [Request] the request object
+	# @return [String] the resulting webpage
 	def index
 		
 	end
   
+	# Generates pdf file from index html
+	#
+	# @param request [Request] the request object
+	# @return [String] the object converted into the pdf format.
 	def pdfshow
 		time = Time.now
 		file_name =  "HTML-page-" + time.year.to_s + "-" + time.month.to_s + "-" + time.day.to_s + ".pdf"
@@ -16,6 +24,10 @@ class HomeController < ApplicationController
 
 	end
 	
+	# Generates pdf file from string
+	#
+	# @param request [Request] the request object
+	# @return [String] the object converted into the pdf format.
 	def pdfme
 		pdf = WickedPdf.new.pdf_from_string('<h1>Hello There!</h1>')
 		

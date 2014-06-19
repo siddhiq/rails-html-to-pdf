@@ -2,10 +2,9 @@ require 'spec_helper'
 # spec/controllers/home_controller_spec.rb
 describe HomeController, :type => :controller do
 	describe "GET #index" do 
-		#let (:index) { index }
 		it "displays index page" do
 			get :index
-			
+
 			if(:index)
 				puts "SUCCESS::Index page was loaded."
 			else

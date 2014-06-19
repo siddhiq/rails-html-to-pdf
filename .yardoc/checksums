@@ -1,0 +1,5 @@
+app/helpers/home_helper.rb 06fe7c399d2e519deba66a60aae6492d8f880aa2
+app/helpers/home_index_helper.rb 7c9a7cb695ef01aa934630013764177df2cf7cbd
+app/helpers/application_helper.rb 56075b5ddff9cba74eb84b461009a049aeb8fd6f
+app/controllers/home_controller.rb 367c7d23cbae66b4610c0a5708dcd1e4de3ecd8c
+app/controllers/application_controller.rb 7afa8bd02d2c49fd8df3c6e372b8520c9f916e8e

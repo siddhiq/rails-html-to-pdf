@@ -51,3 +51,6 @@ end
 group :test do
   gem 'shoulda-matchers'
 end
+
+#Documentation
+gem install yard
