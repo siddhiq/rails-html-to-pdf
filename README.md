@@ -1,13 +1,13 @@
 ##Rails4 + Wicked PDF on Heroku
 
-**References**
-https://github.com/mileszs/wicked_pdf
+**Demo** 
+http://bit.ly/1iG3crH
 
 **RSpec Output**
 http://bit.ly/1uCy3e1
 
-**Demo**
-http://bit.ly/1iG3crH
+**References**
+https://github.com/mileszs/wicked_pdf
 
 **Contact**
 j.milagroso@gmail.com
