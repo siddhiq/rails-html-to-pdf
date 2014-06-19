@@ -17,5 +17,6 @@
 
 # Sublime project file and workspace #
 ######################
-.sublime-project
-.sublime-workspace
+*.sublime-project
+*.sublime-workspace
+
